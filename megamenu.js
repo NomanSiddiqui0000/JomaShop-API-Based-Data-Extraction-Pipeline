@@ -50,7 +50,7 @@ async function fetchNavigationMenu(navigationMenuId = 2) {
     const response = await axios.get(url, { headers });
     return response.data.data;
   } catch (error) {
-    throw new Error(`نیویگیشن مینو fetch کرنے میں ناکامی: ${error.message}`);
+    throw new Error(`Error Message: ${error.message}`);
   }
 }
 
