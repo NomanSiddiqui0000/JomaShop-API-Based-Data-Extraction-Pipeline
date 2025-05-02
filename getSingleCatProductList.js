@@ -1,17 +1,6 @@
-
-
-
-
-
 const axios = require('axios');
 const querystring = require('querystring');
 // const { connectDB, Product, closeDB } = require('./dbsetup');
-
-
-
-
-
-
 
 async function getSingleCatProductList(categoryId, currentPage = 1, categoryName="",  pageSize = 60) {
     const singleCatProductListWPageInfo = [];

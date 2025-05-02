@@ -16,7 +16,7 @@ const userAgents = [
 ];
 
 async function fetchNavigationMenu(navigationMenuId = 2) {
-  // URL پارامیٹرز
+
   const variables = { id: navigationMenuId };
   const extensions = {
     persistedQuery: {
@@ -38,7 +38,7 @@ async function fetchNavigationMenu(navigationMenuId = 2) {
   const headers = {
     'accept': '*/*',
     'content-type': 'application/json',
-    'referer': 'https://www.jomashop.com/watches.html', // ضرورت کے مطابق تبدیل کریں
+    'referer': 'https://www.jomashop.com/watches.html', 
     'sec-ch-ua': selectedUA.secChUa,
     'sec-ch-ua-mobile': '?0',
     'sec-ch-ua-platform': selectedUA.platform,
