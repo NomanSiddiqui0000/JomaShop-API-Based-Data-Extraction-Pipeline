@@ -21,8 +21,8 @@ A professional-grade Node.js solution for scraping and storing product data from
 ## Installation 💻
 
 ```bash
-git clone https://github.com/yourusername/jomashop-scraper.git
-cd jomashop-scraper
+git clone https://github.com/NomanSiddiqui0000/JomaShop-API-Based-Data-Extraction-Pipeline
+cd JomaShop Data Extraction Using API
 npm install
 ```
 
