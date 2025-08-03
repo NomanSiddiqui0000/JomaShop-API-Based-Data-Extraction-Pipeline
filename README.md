@@ -113,6 +113,14 @@ node index.js
 
 ---
 
+## Power BI Report
+
+The interactive Power BI dashboard visualizing all scraped product insights is available here:
+
+🔗 [Download Power BI Report (.pbix)](https://drive.google.com/file/d/1yhVxoBpklSDSrJfkzPsCFmpQyjAebxad/view?usp=sharing)
+
+
+---
 ## Disclaimer ⚠️
 
 This project demonstrates web scraping concepts for **educational purposes only**. Always:
